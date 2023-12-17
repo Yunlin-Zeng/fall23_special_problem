@@ -148,3 +148,5 @@ scatter(x_test[1, :], model(x_test)[1, :], label="prediction w/ score")
 scatter!(x_test[1, :], model0(x_test)[1, :], label="prediction")
 scatter!(x_test[1, :], f.(x_test[1, :]), label="test data")
 ```
+
+# References
