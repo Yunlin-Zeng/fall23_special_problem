@@ -90,6 +90,7 @@ The objective is to minimize the L2 norm (squared Euclidean distance) between tw
 Comparative training results with and without augmented data
 :::
 
+\newpage
 ## Appendix
 ```julia
 using Flux, Zygote, Statistics
