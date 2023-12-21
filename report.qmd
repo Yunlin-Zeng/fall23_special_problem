@@ -90,6 +90,10 @@ The objective is to minimize the L2 norm (squared Euclidean distance) between tw
 Comparative training results with and without augmented data
 :::
 
+
+## References
+
+
 \newpage
 ## Appendix
 ```julia
@@ -149,4 +153,4 @@ scatter!(x_test[1, :], model0(x_test)[1, :], label="prediction")
 scatter!(x_test[1, :], f.(x_test[1, :]), label="test data")
 ```
 
-# References
+
